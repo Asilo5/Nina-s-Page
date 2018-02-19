@@ -1,0 +1,289 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body.homepage{
+  background-image: url(background.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-image: url(background.jpg);
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header First  */
+.ninaSleep {
+  margin: 0 auto;
+  display: block;
+  background: white;
+  border: 2px dashed black;
+}
+
+ .first {
+  font-family: 'Satisfy', cursive;
+  background: white;
+  padding: 10px;
+
+}
+
+h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 100px;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 30px;
+  margin: 0;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+/* Pages after first view */
+
+.ninaTop {
+  width: 55%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  background: white;
+  border: 2px dashed black;
+  margin-top: 10px;
+}
+
+
+.title {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 100px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+}
+
+
+.ninaNav ul {
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  width: 30%;
+}
+
+
+li {
+  display: inline;
+  padding: 0px 20px 0px 20px;
+}
+
+  li:hover {
+    background: red;
+    text-decoration-color: white;
+  }
+
+/* About Me */
+
+.about-me {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 30px 15px 30px;
+  background: white;
+  border: 2px dashed black;
+}
+
+.aboutPrincess {
+  text-align: center;
+}
+
+.sleepyNina {
+  height: 55%;
+  width: 30%;
+  border-radius: 50%;
+  float: left;
+  border: 2px solid black;
+  padding: 5px;
+  transition: all 8s ease-in-out;
+}
+
+   .sleepyNina:hover {
+     content: url("frontal.jpg");
+   }
+
+
+/* More Me */
+
+.moreMe {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 30px 15px 30px;
+  background: white;
+  border: 2px dashed black;
+  min-height: 500px;
+}
+
+.moreMe::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+
+/* Slide */
+
+.imgNina {
+  position: relative;
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.imgPup {
+  position: relative;
+  display: inline-block;
+  height: 450px;
+  width: 80%;
+  max-width: 250px;
+  margin: auto;
+  padding: 10px;
+  border: solid 1px black;
+}
+
+
+/*  Me & Daddies */
+
+.meDaddies {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 30px 15px 30px;
+  background: white;
+  border: 2px dashed black;
+}
+
+.meDaddies::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.kisses img {
+  float: right;
+  height: 40%;
+  width: 30%;
+  border-radius: 50%;
+  overflow: auto;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.christmas img {
+ float: left;
+ height: 40%;
+ width: 30%;
+ border-radius: 50%;
+ overflow: auto;
+ border: 2px solid black;
+ padding: 5px;
+}
+
+.gaspar1 {
+  float: right;
+  height: 40%;
+  width: 30%;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+
+.meDaddies div {
+ padding: 10;
+ clear: both;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-style: italic;
+  max-width: 40%;
+  display: block;
+  margin: 0 auto;
+  border: 2px dashed black;
+  margin-bottom: 10px;
+}
+
+.mainPage {
+  background: white;
+}
+
+.myName {
+  font-family: 'Courgette', cursive;
+  font-size: 15px;
+}
+
+.myName:hover {
+  text-decoration: underline;
+}
+
+
+/* Media */
+
+@media screen and (max-width:500px) and (min-width: 200px){
+
+
+
+      h1, .title {
+        font-size: 70px;
+        text-align: center;
+      }
+
+      li {
+        padding: 0px 5px 0px 5px;
+      }
+
+  .sleepyNina {
+    float: none;
+    width: 300px;
+    height: 300px;
+  }
+
+
+     .about-me {
+       height: 350%;
+     }
+}
+
+@media screen and (max-width: 800px) {
+
+  .sleepyNina {
+    width: 200px;
+    height: 200px;
+  }
+
+
+}
